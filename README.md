@@ -91,4 +91,12 @@ git pull
 
 13. ENJOY ALL GREEN! :D 
 
-14. Figure out what `npm run ci` does -> does it run the tests on CircleCI from the console?
+14. Make sure that in your *index.js* it says:
+
+```javascript
+const port = process.env.PORT || 3000
+```
+
+CAPITALIZATION matters!
+
+15. Figure out what `npm run ci` does -> does it run the tests on CircleCI from the console?
